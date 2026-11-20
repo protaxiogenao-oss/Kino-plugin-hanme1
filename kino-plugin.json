@@ -1,0 +1,65 @@
+{
+  "id": "hanime1",
+  "name": "Hanime1.me",
+  "version": "1.0.0",
+  "apiVersion": 6,
+  "entry": "plugin.js",
+  "description": "Hentai / 裏番 de hanime1.me. MP4 multi-calidad, Uncensored, búsqueda y secciones Home. Solo +18.",
+  "author": "Hotaru Yume",
+  "creator": "hotaruyume",
+  "homepage": "https://hanime1.me",
+  "hosts": [
+    "hanime1.me",
+    "*.hanime1.me",
+    "hanimeone.me",
+    "*.hanimeone.me",
+    "vdownload.hembed.com",
+    "*.hembed.com",
+    "hembed.com"
+  ],
+  "streamHosts": "any",
+  "capabilities": [
+    "search",
+    "home",
+    "browse",
+    "resolve"
+  ],
+  "categories": [
+    "adult"
+  ],
+  "color": "#E91E63",
+  "icon": "icon.png",
+  "theme": {
+    "accent": "#C2185B",
+    "onAccent": "#FFFFFF",
+    "background": "#0D0D12",
+    "surface": "#1A1A22",
+    "highlight": "#FF5C8A"
+  },
+  "settings": [
+    {
+      "key": "quality",
+      "label": "Calidad preferida",
+      "type": "select",
+      "default": "auto",
+      "options": [
+        {
+          "value": "auto",
+          "label": "Automática (mejor disponible)"
+        },
+        {
+          "value": "1080",
+          "label": "1080p"
+        },
+        {
+          "value": "720",
+          "label": "720p"
+        },
+        {
+          "value": "480",
+          "label": "480p"
+        }
+      ]
+    }
+  ]
+}
